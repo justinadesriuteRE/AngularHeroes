@@ -1,0 +1,44 @@
+/* MessagesComponent's private CSS styles */
+
+h2 {
+    color: pink;
+    font-family: Courier New;
+    font-weight: lighter;
+  }
+
+  body {
+    margin: 2em;
+    color: crimson;
+    font-family: Courier New;
+  }
+
+  input[text] {
+    color: crimson;
+    font-family: Courier New;
+  }
+
+  button {
+    color: crimson;
+    font-family: Courier New;
+    &.clear {
+      font-family: Courier New;
+      background-color: #eee;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      cursor: hand;
+    }
+    &:hover {
+      background-color: #cfd8dc;
+    }
+    &:disabled {
+      background-color: #eee;
+      color: #aaa;
+      cursor: auto;
+    }
+    &.clear {
+      color: #888;
+      margin-bottom: 12px;
+    }
+  }
